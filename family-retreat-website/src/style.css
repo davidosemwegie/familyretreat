@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Atma:300,400,500,600,700&display=swap');
+
+*, html {
+    padding: 0;
+    margin: 0;
+}
+
+/* body {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    line-height: 20px;
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+} */
+
+#Header {
+    width: 100%;
+    background-color: #FCEBF0;
+    text-align: center;
+    padding: 1em;
+    /* position: fixed; */
+    top: 0;
+    z-index: 100;
+}
+
+#nav ul li {
+    display: inline;
+    padding: 1em;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.navLink {
+    font-family: 'Atma', bold;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+}
+
+.ticketButton {
+    background-color: red;
+    width: 200;
+    height: 91px;
+    /* float: right; */
+    padding-right: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    #Header {
+        width: 100%;
+        background-color: #FCEBF0;
+        text-align: center;
+        padding: 1em;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        margin: auto;
+    }
+    #Header li {
+        display: block;
+        float: inline-end;
+    }
+    #nav {
+        background-color: red;
+        text-align: center;
+    }
+    .navLink {
+        font-family: 'Atma', bold;
+        font-weight: bold;
+        font-size: 1.5em;
+        text-decoration: none;
+        color: black;
+    }
+    .navLink:hover {
+        text-decoration: underline;
+    }
+}
+
+/* Hero Banner */
+
+.hero-container {
+    width: 100%;
+}
+
+#HeroImage {
+    width: 100%;
+}
+
+.hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-text {
+    color: black;
+    font-family: 'atma';
+    font-weight: 900;
+}
+
+#hero-text-top {
+    font-size: 3em;
+}
+
+#hero-text-bottom {
+    font-size: 5em;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+
+/* INFO BOX */
+.info-box {
+    /* width: 100%; */
+    /* background-color: teal; */
+    background-image: url('./assets/90s.jpg');
+    background-size: cover;
+    text-align: center;
+
+    /* padding: 10em; */
+
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#info-inner {
+    /* background-color: red; */
+}
+
+.info-box-text {
+    font-family: 'atma';
+    font-weight: 900;
+}
+
+#info-camp{
+    color: blue;
+    font-size: 2em;
+}
+
+#info-btw {
+  font-size: 7em;
+} 
+
+#info-dt {
+    font-size: 3em;
+    margin-bottom: 0.6em;
+}
+
+#ticket-box {
+    background-color: teal;
+    width: 60%;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 0.5em;
+    margin: 5em;
+}
+
+#info-sales {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    .info-box {
+        /* width: 100%; */
+        /* background-color: teal; */
+        background-image: url('./assets/90s.jpg');
+        background-size: cover;
+        text-align: center;
+    
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    #info-camp{
+        color: blue;
+        font-size: 1em;
+    }
+    
+    #info-btw {
+        font-size: 2em;
+    }
+
+    #info-dt {
+        font-size: 0.8em;
+    }
+}
