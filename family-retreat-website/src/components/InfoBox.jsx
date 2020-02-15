@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Player } from 'video-react';
 
 import BG from '../assets/90s.jpg'
 
@@ -19,7 +18,7 @@ class InfoBox extends Component {
                     <p className="info-box-text" id="info-camp">CAMP 2020</p>
                     <p className="info-box-text" id="info-btw">#BETTERWITHYOU</p>
                     <p className="info-box-text" id="info-dt">Thu, Mar 1 - Sun. Mar 22 | Salem Acres Bible Camp</p>
-                    <a href="www.google.com" className="info-box-text" id="ticket-box">Get Tickets</a>
+                    <a target="_blank" href="https://www.showpass.com/youth-family-retreat/" className="info-box-text" id="ticket-box">Get Tickets</a>
                     <p className="info-box-text" id="info-sales">SALES CLOSE MARCH 15TH, 2019</p>
                 </div>
             </section>

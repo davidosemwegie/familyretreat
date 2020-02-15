@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Atma:300,400,500,600,700&display=swap');
-
 *, html {
     padding: 0;
     margin: 0;
@@ -117,21 +116,17 @@ ul {
     font-size: 5em;
 }
 
-@media only screen and (max-width: 600px) {
-
-}
-
+@media only screen and (max-width: 600px) {}
 
 /* INFO BOX */
+
 .info-box {
     /* width: 100%; */
     /* background-color: teal; */
     background-image: url('./assets/90s.jpg');
     background-size: cover;
     text-align: center;
-
     /* padding: 10em; */
-
     padding-left: 10em;
     padding-right: 10em;
     padding-top: 5em;
@@ -147,14 +142,14 @@ ul {
     font-weight: 900;
 }
 
-#info-camp{
+#info-camp {
     color: blue;
     font-size: 2em;
 }
 
 #info-btw {
-  font-size: 7em;
-} 
+    font-size: 7em;
+}
 
 #info-dt {
     font-size: 3em;
@@ -162,12 +157,13 @@ ul {
 }
 
 #ticket-box {
-    background-color: teal;
+    background-color: turquoise;
     width: 60%;
     text-align: center;
     font-size: 2.5em;
     padding: 0.5em;
-    margin: 5em;
+    text-decoration: none;
+    color: white;
 }
 
 #info-sales {
@@ -182,23 +178,137 @@ ul {
         background-image: url('./assets/90s.jpg');
         background-size: cover;
         text-align: center;
-    
         padding-left: 2em;
         padding-right: 2em;
         padding-top: 1em;
         padding-bottom: 1em;
     }
-
-    #info-camp{
+    #info-camp {
         color: blue;
         font-size: 1em;
     }
-    
     #info-btw {
         font-size: 2em;
     }
-
     #info-dt {
         font-size: 0.8em;
+    }
+    #ticket-box {
+        background-color: turquoise;
+        width: 60%;
+        text-align: center;
+        font-size: 1em;
+        padding: 0.5em;
+    }
+    #info-sales {
+        font-size: 1em;
+        margin-top: 1em;
+    }
+}
+
+/* WAIVER */
+
+.waiver-container {
+    background-color: #5CE1E6;
+    text-align: center;
+    font-family: 'atma';
+    font-weight: 900;
+    color: white;
+    font-size: 2em;
+    padding: 2em;
+}
+
+.section-title-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+
+#waiver-download-button {
+    /* UI Properties */
+    background-color: #FF0292 0% 0% no-repeat padding-box;
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .section-title-center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    .waiver-container {
+        background-color: #5CE1E6;
+        text-align: center;
+        font-family: 'atma';
+        font-weight: 900;
+        color: white;
+        font-size: 2em;
+        padding: 1em;
+    }
+
+    #waiver-download-button {
+        /* UI Properties */
+        background-color: #FF0292;
+        width: 60%;
+        text-align: center;
+        font-size: 0.7em;
+        padding: 0.5em;
+    }
+
+    .waiver-text {
+        font-size: 0.5em;
+    }
+}
+
+/* FAQS */
+
+.faq-box {
+    margin-top: 2em;
+}
+
+.faq-title {
+    color: #707070;
+    font-size: 3em;
+}
+
+.faq-text {
+    color: #707070;
+    font-size: 2em;
+}
+
+.section-container {
+    padding: 2em;
+    font-family: 'atma';
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .section-container {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        padding-top: 0em;
+        padding-bottom: 0.1em;
+        font-family: 'atma';
+    }
+
+
+    .faq-box {
+        margin-top: 1em;
+    }
+
+    .faq-title {
+        color: #707070;
+        font-size: 1em;
+    }
+    
+    .faq-text {
+        color: #707070;
+        font-size: 0.7em;
     }
 }
